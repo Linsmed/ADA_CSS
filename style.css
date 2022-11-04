@@ -1,0 +1,48 @@
+.main {
+  margin: auto;
+  width: 600px;
+  height: 600px;
+  border: 11px dashed rgb(209, 166, 173);
+  background-color: greenyellow;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.item {
+  font-style: italic;
+  font-size: 30px;
+  color: #ffffff;
+}
+
+.item span {
+  font-size: 40px;
+  font-weight: 400;
+  cursor: pointer;
+}
+
+.item span:hover {
+  color: rgb(115, 84, 255);
+}
+
+.content {
+  font-size: 40px;
+  font-weight: 500;
+  color: rgb(255, 82, 111);
+  text-transform: capitalize;
+}
+
+li {
+  color: white;
+  font-size: 29px;
+  margin-bottom: 10px;
+}
+
+ul li::before {
+  content: "\2022";
+  color: rgb(0, 181, 0);
+  font-size: 29px;
+  font-weight: 400;
+  width: 1em;
+}
